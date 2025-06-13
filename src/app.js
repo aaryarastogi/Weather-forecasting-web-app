@@ -1,7 +1,7 @@
 const express=require("express");
 const path=require("path");
 const hbs=require("hbs");
-const port_number=process.env.PORT || 8000;
+const port_number=process.env.PORT || 3000;
 const app=express();
 
 //public static path

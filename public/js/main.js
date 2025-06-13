@@ -9,7 +9,7 @@ const getInfo=async(event)=>{
     event.preventDefault();
     let cityval=CityName.value;
     if(cityval===""){
-        city_name.innerText=`Plz write the city name before search`;
+        city_name.innerText=`Please write the city name before search`;
         datahide.classList.add('data_hide');
     }
     else{
@@ -38,7 +38,7 @@ const getInfo=async(event)=>{
             datahide.classList.remove('data_hide');
         }
         catch{
-            city_name.innerText=`Plz write the city name properly`;
+            city_name.innerText=`Please write the city name properly`;
             datahide.classList.add('data_hide');
         }
     }
